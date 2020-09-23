@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from './assets/product_image_placeholder.png';
+import PropTypes from 'prop-types';
 
 export default class Phone extends React.Component {
   // state = {
@@ -39,3 +40,7 @@ export default class Phone extends React.Component {
     );
   }
 }
+Phone.propTypes = {
+  phone: PropTypes.object.isRequired,
+  handleIncrement: PropTypes.func.isRequired,
+};

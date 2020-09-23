@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Phone from './body.js';
-import avatar from './assets/product_image_placeholder.png';
+// import avatar from './assets/product_image_placeholder.png';
 
 class AllPhone extends Component {
   // state = {

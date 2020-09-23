@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from './header.js';
-import Phone from './body.js';
 import AllPhone from './allPhone.js';
 
 class App extends Component {
