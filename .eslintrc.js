@@ -16,5 +16,5 @@ module.exports = {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "ignorePatterns": ['node_modules/'],
+  "ignorePatterns": ['node_modules/','src/'],
 };
